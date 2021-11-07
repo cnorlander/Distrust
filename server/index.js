@@ -6,7 +6,7 @@ const isDev = app.get('env') === 'development';
 const path = require('path')
 
 app.use('/static', express.static('../webclient/static'))
-app.set('views', __dirname + '/templates');
+app.set('views', __dirname + '/routes/templates');
 
 const njk = expressNunjucks(app, {
   watch: isDev,

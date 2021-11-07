@@ -16,7 +16,7 @@
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _app_svelte__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app.svelte */ \"./svelte/app.svelte\");\n\nconsole.log(\"Loading Distrust\");\nvar app = new _app_svelte__WEBPACK_IMPORTED_MODULE_0__[\"default\"]({\n  target: document.getElementById(\"app\")\n});\nconsole.log(\"Distrust Loaded!\");\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (app);\n\n//# sourceURL=webpack://distrust-webclient/./svelte/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _app_svelte__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app.svelte */ \"./svelte/app.svelte\");\n\nvar app = new _app_svelte__WEBPACK_IMPORTED_MODULE_0__[\"default\"]({\n  target: document.getElementById(\"svelte-app\")\n});\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (app);\n\n//# sourceURL=webpack://distrust-webclient/./svelte/index.js?");
 
 /***/ }),
 

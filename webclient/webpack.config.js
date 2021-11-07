@@ -16,9 +16,6 @@ module.exports = {
         rules: [
             {
                 test: /\.js?$/,
-                include: [
-                    path.resolve(__dirname, "svelte")
-                ],
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',
@@ -26,9 +23,6 @@ module.exports = {
             },
             {
                 test: /\.svelte$/,
-                include: [
-                    path.resolve(__dirname, "svelte")
-                ],
                 use: {
                     loader: 'svelte-loader',
                 },
@@ -36,7 +30,7 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: ['.js', '.ts', '.svelte'],
+        extensions: ['.mjs', '.js','.svelte'],
     },
     plugins: [
         new MiniCssExtractPlugin(),
