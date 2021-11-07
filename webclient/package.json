@@ -1,0 +1,28 @@
+{
+  "name": "distrust-webclient",
+  "version": "1.0.0",
+  "description": "Distrust Webclient",
+  "main": "index.js",
+  "scripts": {
+    "prod": "webpack --mode=production",
+    "dev": "webpack --watch",
+    "test": "echo \"Error: No tests have been created yet to run.\"  && exit 1"
+  },
+  "author": "Corey Norlander",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "mini-css-extract-plugin": "^2.4.4",
+    "svelte-loader": "^3.1.2",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "svelte": "^3.44.1",
+    "svelte-routing": "^1.6.0"
+  }
+}

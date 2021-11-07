@@ -1,0 +1,19 @@
+{
+  "name": "distrust-server",
+  "version": "1.0.0",
+  "description": "A chat app with one simple principal: Trust No One.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no tests yet created\" && exit 1"
+  },
+  "author": "Corey Norlander",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-nunjucks": "^2.2.5",
+    "node": "^17.0.1",
+    "nodemon": "^2.0.14",
+    "nunjucks": "^3.2.3",
+    "socket.io": "^4.3.1"
+  }
+}
